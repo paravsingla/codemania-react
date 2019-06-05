@@ -28,4 +28,4 @@ This repository contains information and additional resources for the workshop
 
 
 
-### [Wednesday, 5-Jun]()
+### [Wednesday, 5-Jun](https://github.com/paravsingla/codemania-react/tree/master/Wednesday)
