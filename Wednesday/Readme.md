@@ -57,7 +57,7 @@ We discussed some of the react components available.
 
 9. Button
 
-   `<Button title="Go ahead, press me, I dare ya!" onPress={ () => console.log("You pressed me!"); } />`
+   `<Button title="Go ahead, press me, I dare ya!" onPress={ () => console.log("You pressed me!")} />`
 
 10. Touchable Highlight:
 
