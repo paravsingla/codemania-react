@@ -46,7 +46,7 @@ We discussed some of the react components available.
 
 7. Image from url:
 
-   `<Image source={ uri : "https://www.paravsingla.com/logo.png" } />`
+   `<Image source={ uri : "https://paravsingla.com/logo.png" } />`
 
 8. Text input component:
 
@@ -57,7 +57,7 @@ We discussed some of the react components available.
 
 9. Button
 
-   `<Button title="Go ahead, press me, I dare ya!" onPress={ () => console.log("You pressed me!"); } />`
+   `<Button title="Go ahead, press me, I dare ya!" onPress={ () => console.log("You pressed me!")} />`
 
 10. Touchable Highlight:
 
