@@ -73,7 +73,8 @@ class SearchScreen extends React.Component {
         />
         <Button style={{flex:0.2, height: 40, paddingLeft:5,}}
           title="Search"
-          onPress={() => this.props.navigation.navigate('Results')}
+          onPress={() => this.props.navigation.navigate('Results',
+          {search_text: this.state.text})}
         />
       </View>
     );
@@ -85,9 +86,13 @@ class ResultsScreen extends React.Component {
     title: 'Results',
   };
   render() {
+
+    const search_text = this.props.navigation.getParam("search_text", "");
+
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text>Results</Text>
+        <Text>{search_text}</Text>
       </View>
     );
   }
@@ -137,8 +142,3 @@ export default createAppContainer(createBottomTabNavigator(
     },
   }
 ));
-
-
-
-
-
